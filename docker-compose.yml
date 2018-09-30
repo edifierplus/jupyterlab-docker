@@ -1,0 +1,11 @@
+version: '2'
+services:
+  jupyterlab:
+    build: .
+    image: jupyterlab:latest
+    container_name: jl
+    ports:
+      - 8888:8888
+    volumes:
+      - ./jupyterlab:/root/jupyterlab
+    entrypoint: jupyter-lab
