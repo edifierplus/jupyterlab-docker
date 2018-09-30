@@ -9,7 +9,7 @@ A quantitative JupyterLab environment in docker with zsh shell installed.
 Option 1: Pull from Docker repository
 
 ```bash
-docker pull edifierplus/jupyterlab-docker
+docker pull edifierplus/jupyterlab
 ```
 
 Option 2: Clone and build from Github repository
